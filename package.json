@@ -1,0 +1,34 @@
+{
+  "name": "brazil-cities-predictor",
+  "version": "1.0.0",
+  "description": "A typo-tolerant predictor for Brazil's cities",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "predictor",
+    "brazil"
+  ],
+  "author": "Nickolas Carlos",
+  "license": "Unlicense",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nickolascarlos/brazil-cities-predictor.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nickolascarlos/brazil-cities-predictor/issues"
+  },
+  "homepage": "https://github.com/nickolascarlos/brazil-cities-predictor#readme",
+  "devDependencies": {
+    "@types/lodash": "^4.14.182",
+    "typescript": "^4.6.4"
+  },
+  "dependencies": {
+    "js-levenshtein": "^1.1.6",
+    "lodash": "^4.17.21"
+  }
+}
