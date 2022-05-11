@@ -82,7 +82,7 @@ In this strategy, the bigger the distance the smaller the similarity; so the cit
 
 ### relativeDistance
 
-This strategy is an attempt to improve the absoluteDistance strategy. In this one, the cities are rated by the ratio between the "number of (allegedly) right characters", which is calculated using the Levenshtein Distance, and the total characters, resulting in a rating between 0-1 (inclusive).
+This strategy is an attempt to improve the absoluteDistance strategy. In this one, the cities are rated by the ratio between the Levenshtein Distance and the total characters, resulting in a rating between 0-1 (inclusive).
 
 For my purpose, this strategy performed slightly better than the absoluteDistance, thus I defined it as the default, but you're free to use any.
 

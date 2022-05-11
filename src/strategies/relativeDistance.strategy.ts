@@ -10,7 +10,7 @@ export function relativeDistance(query: string, cities: Array<ProcessedCity>): A
     const relativeRatedCities: Array<RelativeRatedCity> = relativeRate(absoluteRatedCities);
 
     const sortedCities: Array<RelativeRatedCity> = relativeRatedCities.sort((a: RelativeRatedCity, b: RelativeRatedCity) => {
-        return a.relativeDistance < b.relativeDistance ? 1 : -1;
+        return a.relativeDistance > b.relativeDistance ? 1 : -1;
     })
 
     return sortedCities;
