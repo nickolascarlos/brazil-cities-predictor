@@ -64,7 +64,7 @@ E.g.:
  // [...]
 ]
 ```
-If you feel like five cities is not enough (or it's too many), you can change it by passing, as the second parameter, the number of cities you want the predict function to return, like this:
+If you feel like five cities are not enough (or too many), you can change it by passing, as the second parameter, the number of cities you want the predict function to return, like this:
 
 ```ts
 predictor.predict('pontalna', 10)
