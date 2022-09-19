@@ -15,7 +15,7 @@ A typo-tolerant predictor for Brazil's cities
 - [Strategies](#strategies)
   - [absoluteDistance](#absolutedistance) 
   - [relativeDistance](#relativedistance)
-  - [Determining Which Strategy to Use](#how-to-determine-which-strategy-to-use)
+  - [Setting Which Strategy to Use](#how-to-set-which-strategy-to-use)
 - [License](#license)
 
 ## Installation
@@ -86,7 +86,7 @@ This strategy is an attempt to improve the absoluteDistance strategy. In this on
 
 For my purpose, this strategy performed slightly better than the absoluteDistance, thus I defined it as the default, but you're free to use any.
 
-### How to determine which strategy to use?
+### How to set which strategy to use?
 
 You can set the strategy as follows:
 
